@@ -9,8 +9,14 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Strona główna</a>
+			<a href="nauka-html.html">Nauka htmla</a>
+		</nav>
+	</header>
 	<main>
-		<header>
+		<header id="top">
 			<h1>Notatnik do kursu WTF: Co ten Frontend</h1>
 		</header>
 
@@ -18,37 +24,46 @@
 			<h2>HTLM</h2>
 			<article>
 				<h3>Co to jest HTML?</h3>
-				HTML - HyperText Markup Language
-				Jest semantyczny = mający znaczenie.
+				<strong>HTML - HyperText Markup Language</strong> <br>
+				<em>Jest semantyczny = mający znaczenie.</em> <br>
 				Odpowiada za treść (a właściwie za jej opakowanie). Treść do teksty, nagłówki, linki, listy, definicje,
 				obrazki,
-				video, formularze. Ogólnie wszystko co jest nośnikiem informacji.
+				video, formularze. <br> Ogólnie wszystko co jest nośnikiem informacji. <br>
 				HTML składa się ze znaczników/tagów/elementów.
-				Pliki zawierające kod HTML mają zwykle rozszerzenie .html
+				Pliki zawierające kod HTML mają zwykle rozszerzenie .html <br>
+				Więcej na ten temat dowiesz się <a href="https://pl.wikipedia.org/wiki/HTML"
+					target="_blank">tutaj</a><br>
+				<a href="#css">Poczytaj teraz o css</a>
 			</article>
 
 			<article>
 				<h3>Elementy HTML</h3>
-				main - główna część dokumentu
-				section - sekcje dokumentu
-				article - samodzielne treści
-				header - nagłówek dokumentu/sekcji/artykułu
-				footer - stopka dokumentu/sekcji/artykułu
-				h1-h6 - tekstowe nagłówki tytułowe dokumentu/sekcji/artykułu
-				p - paragraf/akapit
+				main - główna część dokumentu <br>
+				section - sekcje dokumentu <br>
+				article - samodzielne treści <br>
+				header - nagłówek dokumentu/sekcji/artykułu <br>
+				footer - stopka dokumentu/sekcji/artykułu <br>
+				h1-h6 - tekstowe nagłówki tytułowe dokumentu/sekcji/artykułu <br>
+				p - paragraf/akapit <br>
 			</article>
 		</section>
 
-		<section>
+		<section id="css">
 			<h2>CSS</h2>
-			<p>CSS - Cascading Style Sheets (Kaskadowe arkusze stylów)
-				CSS odpowiada za prezentację, wpływają na wygląd elementów HTML na ekranie, wydrukach itp. Składnia to
+			<p>CSS - Cascading Style Sheets (Kaskadowe arkusze stylów) <br>
+				CSS odpowiada za prezentację, wpływają na wygląd elementów HTML na ekranie, wydrukach itp. <br> Składnia
+				to
 				reguły
 				np.
 				selektor{właściwość: wartość;}. Pliki mają rozszerzenie .css.</p>
 		</section>
 
 	</main>
+
+	<footer>
+		Pierwsza strona domowa Pawła Wojciechowskiego <a href="#top">Do góry</a>
+	</footer>
+
 </body>
 
 </html>
