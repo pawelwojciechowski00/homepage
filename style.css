@@ -5,3 +5,28 @@ body {
 h2 {
     color: #1460AA
 }
+
+section {
+    background-color: aquamarine;
+}
+
+.czerwony {
+    color: red
+}
+
+#css {
+    background-color: bisque;
+}
+
+a {
+    color: green;
+}
+
+section a {
+    color: rgb(15, 209, 223);
+}
+
+.my-class p {
+    background: violet;
+    color: aliceblue;
+}
