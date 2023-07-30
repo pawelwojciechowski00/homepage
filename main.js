@@ -1,3 +1,4 @@
+alert('Witaj!');
 const firstName = "Pawel";
 const age = 23;
 
