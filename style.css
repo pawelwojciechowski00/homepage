@@ -2,8 +2,12 @@ body {
     background-color: #af7070;
 }
 
+h3 {
+    color: #aa6914;
+}
+
 h2 {
-    color: #1460AA
+    color: crimson;
 }
 
 section {
@@ -11,7 +15,7 @@ section {
 }
 
 .czerwony {
-    color: red
+    color: red;
 }
 
 #css {
@@ -29,4 +33,9 @@ section a {
 .my-class p {
     background: violet;
     color: aliceblue;
+}
+
+.episodesRecenzion {
+    background: #1644c5;
+    color: rgb(218, 199, 199);
 }
