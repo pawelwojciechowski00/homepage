@@ -5,20 +5,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Notatki WTF: Co ten frontend</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a href="index.html">Strona główna</a>
-			<a href="nauka-html.html">Nauka htmla</a>
-			<a href="jigokuraku.html">Jigokuraku</a>
+		<nav class="navigation">
+			<a class="navigation__link" href="index.html">Strona główna</a>
+			<a class="navigation__link" href="nauka-html.html">Nauka htmla</a>
+			<a class="navigation__link" href="jigokuraku.html">Jigokuraku</a>
 		</nav>
 	</header>
 	<main>
-		<header id="top">
-			<h1>Notatnik do kursu WTF: Co ten Frontend</h1>
+		<header class="page-header" id="top">
+			<h1 class="page-header__heading page-header__heading--js">Notatnik do kursu WTF: Co ten Frontend</h1>
 		</header>
 
 		<section>
@@ -70,7 +71,7 @@
 		Pierwsza strona domowa Pawła Wojciechowskiego <a href="#top">Do góry</a>
 	</footer>
 
-	<script src="main.js"></script>
+	<script defer src="main.js"></script>
 
 </body>
 

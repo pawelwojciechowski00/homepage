@@ -3,7 +3,7 @@ body {
 }
 
 h3 {
-    color: #aa6914;
+    color: #80ce1a;
 }
 
 h2 {
@@ -11,7 +11,7 @@ h2 {
 }
 
 section {
-    background-color: aquamarine;
+    padding: 16px;
 }
 
 .czerwony {
@@ -20,10 +20,6 @@ section {
 
 #css {
     background-color: bisque;
-}
-
-a {
-    color: green;
 }
 
 section a {
@@ -36,6 +32,47 @@ section a {
 }
 
 .episodesRecenzion {
-    background: #1644c5;
     color: rgb(218, 199, 199);
+}
+
+.episodesRecenzion__header {
+    color: #aa6914;
+    text-align: center;
+}
+
+.episodesRecenzion__header--special {
+    color: #80ce1a;
+    margin: 20px auto;
+}
+
+.navigation {
+    padding: 16px;
+    background: wheat;
+}
+
+.navigation__link {
+    color: #1644c5;
+}
+
+header {
+    padding: 16px;
+}
+
+footer {
+    padding: 16px;
+}
+
+.box {
+    padding: 16px;
+    margin: 10px auto;
+    background-color: #1644c5;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.box__title {
+    margin: 10px auto;
+    padding: 16px;
+    width: 400px;
+    text-align: center;
 }
