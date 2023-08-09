@@ -29,6 +29,10 @@ main {
     padding: 16px;
 }
 
+.my-article__list {
+    list-style-type: square;
+}
+
 .episodesRecenzion {
     color: rgb(218, 199, 199);
 }
@@ -95,4 +99,13 @@ main {
 
 .page-header__heading {
     font-weight: 500;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+table caption {
+    margin-bottom: 2em;
 }
