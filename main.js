@@ -1,6 +1,8 @@
 const firstName = "Pawel";
 const age = 23;
 
+alert(`Witaj mam na imię ${firstName} i mam ${age} lata`)
+
 console.log(`Nazywam się ${firstName} i mam ${age} lata`)
 
 const header = document.querySelector('.page-header__heading--js')
